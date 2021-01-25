@@ -1,0 +1,22 @@
+.navbar {
+    font-family: $raleway;
+    font-size: $x-small;
+    background-color: $white;
+    margin: 0 10%;
+}
+
+.logo {
+    width: 70%;
+}
+
+a.navbar-nav {
+    &__item_link {
+        color: $raising-black;
+        margin: 10px;
+        text-decoration: none;
+    }
+}
+
+.signin {
+    margin-left: auto;
+}

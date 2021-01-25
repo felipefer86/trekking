@@ -1,0 +1,34 @@
+.main-section {
+    font-family: $raleway;
+    margin-bottom: 10%;
+ 
+    &__header {
+        margin-top: 5%;
+        text-align: center;
+        font-weight: 700;
+        font-size: $x-large;
+        margin-bottom: 10%;
+    }
+
+    &__graph {
+        display: flexbox;
+        justify-self: center;
+    }
+
+    &__cols {
+        padding: 0;
+        display: flexbox;
+        justify-self: center;
+
+        &_title {
+            margin-top: 5%;
+            font-weight: 700;
+            font-size: $large;
+            margin-bottom: 12%;
+        }
+
+        &_text {
+            line-height: 25px;
+        }
+    }
+}

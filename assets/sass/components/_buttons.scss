@@ -1,0 +1,45 @@
+.button {
+    font-family: $raleway;
+    font-weight: 700;
+    color: white;
+    background-color: $ball-blue;
+    border: none;
+
+    &__regular {
+        padding: 0.5rem 1rem;
+        margin-left: 0.4rem;
+        text-align: center;
+
+        &__white {
+            text-align: center;
+            color: $raising-black;
+            background-color: $white;
+            font-weight: 700;
+        }
+    }
+
+    &__large {
+        font-size: $small;
+        font-weight: 700;
+        text-align: center;
+        padding: 0.5rem 3.5rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    &:hover {
+        background-color: $middle_blue;
+    }
+
+    &:focus {
+        background-color: $silver-chalice;
+    }
+}
+
+a.button__regular__white {
+    text-decoration: none;
+    color: $raising-black;
+    margin-right: 20px;
+}
+

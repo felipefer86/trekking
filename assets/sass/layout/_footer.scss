@@ -1,0 +1,29 @@
+.footer {
+    box-sizing: border-box;
+    background-color: $raising-black;
+    font-family: $raleway;
+    padding: 4%;
+    display: inline-flexbox;
+    justify-content: stretch;
+    
+}
+
+.footer-nav {
+    display: flex;
+  
+    &__item {
+        margin-right: 5%;
+
+        &_link {
+            font-size: $x-small;
+            color: $platinum;
+            text-decoration: none;
+        }
+
+        &_copyright {
+            margin-left: 60%;
+            font-size: $x-small;
+            color: $platinum;
+        }
+    }
+}
